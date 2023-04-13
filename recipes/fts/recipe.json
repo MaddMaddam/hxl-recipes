@@ -36,7 +36,7 @@
       "name": "Requirements and Funding for Latest Year",
       "title": "Requirements and Funding for Latest Year",
       "description": "Comparative bar chart comparing requirements and funding for latest year",
-      "type": "comparison-chart",
+      "type": "chart",
       "ingredients": {
         "aggregateFunctions": [
           "sum"
@@ -50,7 +50,7 @@
           }
         ],
         "valueColumns": [
-          "#value+funding+total+usd / #value+funding+required+usd"
+          "#value+funding+total+usd","#value+funding+required+usd"
         ]
       }
     },
